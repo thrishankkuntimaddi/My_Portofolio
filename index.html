@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge>
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <title>
+            Thrishank Kuntimaddi
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4074419aa8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Icon.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Achievements</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>AI Developer</p>
+                    <h1>
+                        Hi, I'm <span>Thrishank</span><br> from   India
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/backg.png">
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="paaa">Passionate about AI development and the creation of AI Assistants, I am driven to explore and innovate at the forefront of artificial intelligence. With a keen interest in leveraging AI to enhance user experiences, I aspire to contribute to the development of intelligent systems that simplify tasks and empower users. Additionally, I am enthusiastic about integrating augmented reality (AR) technology into AI solutions, aiming to create immersive and interactive experiences that push the boundaries of innovation.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python Programming</span><br>Backend Development</li>
+                                <li><span>Artificial Intelligence</span><br>WebAI</li>
+                                <li><span>Data Science</span><br>WebData</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiences">
+                            <ul>
+                                <li><span>28th Jul 2022 to 28th Oct 2022</span><br>Artificial Intelligence with Python</li>
+                                <li><span>01st Jun 2023 to 15th Jul 2023</span><br>Data Science and Machine Learning Internship</li>
+                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Pursuing</span><br>B-Tech from Madanapalle Institute of Technology & Science, Madanapalle</li>
+                                <li><span>2021</span><br>PUC from Nagarjuna Pre University College, Karnataka</li>
+                                <li><span>2019</span><br>Class X from Jeevananda English Medium High School, Andhra Pradesh</li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+<!----  Services  -  --->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Achievements</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Participated in Yukti Innovation, Regional Meet 2023</h2>
+                <p>Institutions' Innovation Council, REVA University</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>First Prize Winner in Oral Presentation & Project Expo</h2>
+                <p>Young Scientists' Conference, Indian International Science Festival (IISF)</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Level 3, Smart India Hackathon (SIH) 2023 </h2>
+                <p>Project Title: Air and Water Quality Index</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--- Portfolio --->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Project1.png">
+                <div class="layer">
+                    <h3>Smart Driver Monitoring and Assistant System</h3>
+                    <p class="paaa">Implemented a Smart Driver Monitoring and Assistance System utilizing OpenCV, which analyzes facial landmarks to detect signs of driver drowsiness, sleeping, or unconcerned behavior, and provides real-time alerts and assistance, thereby enhancing road safety.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project2.png">
+                <div class="layer">
+                    <h3>SmartDrive Guru : Chatbot for Smart Travel Assistance</h3>
+                    <p class="paaa">"DriveSmart Guru" is a chatbot designed to provide smart travel assistance, leveraging machine learning techniques to understand user input and offer personalized, real-time recommendations for optimized journeys.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Project3.png">
+                <div class="layer">
+                    <h3>Autonomous flying copter for public safety</h3>
+                    <p class="paaa">An autonomous flying copter designed for public safety purposes, equipped with advanced sensors and AI algorithms to detect and respond to emergencies, enhancing overall safety and security in various environments.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#portfolio" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- Contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share-from-square"></i> thrishankkuntimaddi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9381870544</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ThrishankKuntimaddi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/ThrishankT"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/just_thrishank/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/thrishank-kuntimaddi-8b64832b6/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/CipherShank"><i class="fa-brands fa-square-github"></i></i></a>
+                </div>
+                <a href="images/ThrishankKuntimaddi.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Thrishank.<i class="fa-regular fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwSx69s-CSN8D83H2CGAGJHCJc01eUnaayGpy08UApyUubwY63oIcKYR-glc38NkCKBFw/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
